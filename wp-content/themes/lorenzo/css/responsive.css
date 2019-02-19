@@ -1,0 +1,117 @@
+﻿/*
+Theme Name: Lorenzo
+Theme URI: http://lorenzo.com
+Description: Lorenzo theme
+Version: 1
+Author: Acetz
+Author URI: http://www.Acetz.com
+*/
+@media (max-width:1200px)
+{
+	margin-top-banner-size { margin-top:500px; }
+}
+@media (min-width: 768px)
+{
+.navbar-nav {     float: right;     margin: 0; }
+.navbar-nav>li>a {     padding-top:18px;      padding-bottom: 19px; }
+.container-fluid {	 padding-right:0;}
+/*.navbar-nav .dropdown-menu {     width: 356px;     margin-left: -49px; padding:5px; box-sizing:border-box;}
+.navbar-nav .dropdown-menu  ul { padding:0; }
+.navbar-nav .dropdown-menu li { padding:0; list-style:none; 	 width:48%; margin:2px 1%; float:left; }
+*/
+}
+@media (max-height:300px)
+{
+	.nav.navbar-nav { 	 max-height:350px; overflow:auto; display:block; }
+}
+
+@media (max-width:1150px)
+{
+	.view-our-menu i.icon {float: none; display: block;  margin: auto;height: 44px;  	 }
+	.view-our-menu .nav-tabs > li > a { 	 text-align:center; padding-top:0; font-size: 15px;}
+	.view-our-menu .nav-tabs > li > a::before {margin-top: 13px;height:65px; }
+	.view-our-menu .nav-tabs > li > a small {font-size: 11px; }
+	.view-our-menu span.active {bottom: -7px; left: 47%; }
+	
+}
+@media (max-width:767px)
+{	
+	 .navbar-nav li.dropdown .dropdown-menu li a{ 	 padding:5px 20px;   color:white;}
+ 
+	.navbar-nav li.dropdown .dropdown-menu { 	 max-height:200px; overflow:auto; }
+	header, header.active{ background-color: #1E1E1E; }
+	.slider-caption p {	 text-align:center;}
+	
+	.slider  {	 top:60px;}
+	.navbar .container-fluid {    background: rgb(30, 30, 30) none repeat scroll 0% 0%; }
+	.navbar-brand{ 	 padding:0; margin-left: 15px; }
+	header .container { 	 padding:0; width:100%; } 
+	p{	 text-align:justify; font-weight:500; font-size:14px;}
+	.menu-list li { 	 width:100%;  padding: 10px 0; margin-bottom:0;}
+	.tab .container { 	 width:100%; padding:0; }
+	.view-our-menu > .container > section { 	 margin-top:70px; }
+	.view-our-menu {height: 345px; }
+	.book-a-table-form { 	 padding:0; }
+	.client-testimonials {padding: 10px 0px;height: 380px; }
+	.news-letter {	 text-align:center;}
+	.testimonial-slider p { 	 font-size:13px; }
+	.banner-caption section {margin: 5% auto auto;}
+	
+	.inner-banner .banner-caption p { 	 display:none; }
+	
+	
+
+	
+}
+
+@media (max-width:600px)
+{
+	.menu-list li a { 	 height:auto; }
+	.menu-list li a img{ border: 2px #FF1136 solid; border-radius: 5px;  	 float:none; display:block; margin:5px auto; }
+	.news-letter-form .form-control {	 width:100%;}
+	.menu-list li a span small { 	 width:90%; margin:auto; }
+	.inner-banner .social-icon{ display:none; }
+
+	.slider-caption .social-icon { display:none !important;}
+	
+	.slider { 	 min-height:0; }
+	
+}
+
+@media (max-width:480px)
+{
+	.dropdown.inline .dropdown-menu { 	    margin-top:-11px;      margin-left:0px;      width: 192px ; border-radius:0 0 3px 3px;}
+	
+	.slider-caption {margin-top: -40px; }
+	.slider-caption h1{ 	 font-size:15px; }
+	.view-our-menu > .container > section h2 {line-height: 0px;font-size: 41px; }
+	.view-our-menu > .container > section h3 {font-size: 26px; line-height: 15px;  	}
+	.next-Carousel, .back-Carousel { top:26%; }
+	.view-our-menu .nav-tabs > li { width: 48%; margin:0px 1%; }
+	.view-our-menu i.icon {float: left; display:inline-block;height: 58px;  margin-top: -5px;margin-left: -13px;	 }
+	.view-our-menu span.active { display:none !important}
+	.view-our-menu .nav-tabs > li > a { height: 60px; padding-top:10px;border: 1px solid rgba(255, 255, 255, 0.43);}
+	.view-our-menu .nav-tabs > li > a::before { 	  height:0; }
+	.view-our-menu .nav-tabs > li > a:hover, .view-our-menu .nav-tabs > li.active > a{border: 1px solid rgba(255, 255, 255, 0.43); background-color: rgba(0, 0, 0, 0.54);}
+	.view-our-menu .nav.nav-tabs {padding-top: 7px;}
+	.view-our-menu .nav-tabs > li > a small { 	 overflow:hidden; white-space:nowrap; text-overflow:ellipsis; } 
+	.view-our-menu > .container > section { 	 margin-top:50px; }
+	.book-table .col-sm-6, .book-table  .col-sm-12{ padding:0;}
+	.book_a_table {	 height:100px;}
+	.book_a_table strong {padding-top: 17px; }
+	.inner-banner img {min-height:200px; }
+	.menu-view .btn-group a { margin-right: 4px; }
+	.menu-view section.heading strong {font-size: 24px; 	}
+	.banner-caption .btn-group-custom { 	 text-align:center; }
+	.btn-group-custom .btn { 	 display:block;  margin-left:0;}
+	
+	.custom-btn {margin: 10px auto;}
+	.banner-caption h1 { 	 line-height:30px; }
+	.banner-caption { 	 top:12px; }
+	.news-letter-form {
+	 width:100%;
+}
+	
+	
+	
+}
